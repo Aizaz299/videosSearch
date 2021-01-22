@@ -20,7 +20,7 @@ class App extends React.Component {
         maxResults: 15,
         type: 'video',
         key: KEY,
-      },
+      }
     });
 
 
@@ -47,7 +47,7 @@ class App extends React.Component {
         <div className="eleven wide column">
         <VideoDetail video={this.state.selectedVideo}/>
         </div>
-        <div className="five eide column">
+        <div className="five wide column">
         <VideoList onVideoSelect={this.onVideoSelect} videos={this.state.videos}/>
         </div>
         </div>
