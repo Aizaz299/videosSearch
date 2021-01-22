@@ -14,7 +14,6 @@ if(!video){
         <div className="ui segment">
            <h3 className="ui header">{video.snippet.title}</h3> 
            <p>{video.snippet.description}</p>
-           
         </div>
     </div>
   )
